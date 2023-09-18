@@ -1,7 +1,8 @@
 
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import Daisyuinav from './components/daisyui/daisyuinav'
+import PriceOptions from './components/PriceOptions/PriceOptions'
+// import Daisyuinav from './components/daisyui/daisyuinav'
 
 function App() {
   
@@ -9,8 +10,8 @@ function App() {
   return (
     <>
     <NavBar></NavBar>
-    <Daisyuinav></Daisyuinav>
-  
+    {/* <Daisyuinav></Daisyuinav> */}
+  <PriceOptions></PriceOptions>
     </>
   )
 }
