@@ -13,8 +13,8 @@ function App() {
   return (
     <>
     <NavBar></NavBar>
-    {/* <Daisyuinav></Daisyuinav> */}
-  <PriceOptions></PriceOptions>
+     {/* <Daisyuinav></Daisyuinav> */}
+  <PriceOptions></PriceOptions> 
  <LineChart></LineChart>
  <Phones></Phones>
     </>
